@@ -82,6 +82,7 @@ nav img {
 }
 .mySlides img {
     width: 100%;
+    height: 400px;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -199,6 +200,88 @@ nav img {
   color: #01f868;
 }
 
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  padding-top: 120px;
+}
+
+.agency-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  gap: 10px;
+}
+
+.agency-about h2{
+  font-size: 30px;
+  color: cornflowerblue;
+  text-transform: uppercase;
+}
+
+.agency-about p{
+  padding: 0 10px;
+  text-align: center;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.footer-links a:hover{
+  transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+  text-decoration: underline;  
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2{
+  font-size: 30px;
+}
+
+.address{
+  padding: 0 30px;
+}
+
+.footer-btn{
+  padding: 20px;
+}
+
+.footer-btn a{
+  text-decoration: none;
+  color: #f1f1f1;
+  border:1px solid #f1f1f1;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.footer-btn a:hover{
+  background-color: #f1f1f1;
+  color: #000;
+  transition: all .3s;
+}
 
 @media screen and  (min-width: 900px){
   .dropdown{
@@ -209,5 +292,11 @@ nav img {
 @media screen and (max-width: 900px) {
   .nav-content{
     display: none;
+  }
+  .mySlides img{
+    height: auto;
+  }
+  .footer{
+    padding-top: 50px;
   }
 }

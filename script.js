@@ -58,4 +58,29 @@ function myFunction() {
     })
 }  
 
+function footerAnim(){
+  var tl =gsap.timeline();
+
+  tl.from(".agency-about",{
+      x:'-15',
+      opacity:0,
+      duration:1.5,
+      ease:Power3.easeInOut
+  })
+  .from(".footer-links",{
+      y:'10',
+      opacity:0,
+      duration:2,
+      delay:-1.5,
+      ease:Expo.easeInOut
+  })
+  .from(".contact",{
+      x:'6',
+      opacity:0,
+      duration:1.5,
+      ease:Power1.easeInOut
+  })
+}
+
 firstPageAnim();
+footerAnim();

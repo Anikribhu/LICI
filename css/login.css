@@ -48,6 +48,8 @@
   }
   
   .login-container input[type="submit"]:hover {
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+    padding: 12px;
     background-color: #0056b3;
   }
 
