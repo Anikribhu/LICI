@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 
 * {
   margin: 0;
@@ -76,7 +77,8 @@ nav img {
 }
 
 .mySlides {
-    display: none
+    display: none;
+    padding:0 20px ;
 }
 .mySlides img {
     width: 100%;
@@ -149,6 +151,53 @@ nav img {
 
 .show {display: block;}
 
+
+.welcome{
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-content{
+  padding: 0 20px;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-content h2{
+  font-size: 32px;
+}
+
+.wel-btn{
+  padding-top: 50px;
+}
+.wel-btn a{
+  text-decoration: none;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.wel-btn a:hover{
+  background-color: #f1f1f1;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 100px;
+}
+
+.name{
+  text-transform: uppercase;
+  font-family:Agbalumo ;
+  font-size: 36px;
+  color: #01f868;
+}
 
 
 @media screen and  (min-width: 900px){

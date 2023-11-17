@@ -31,3 +31,31 @@ function myFunction() {
       }
     }
   }
+
+
+  function firstPageAnim(){
+    var tl =gsap.timeline();
+
+    tl.from(".desc1",{
+        y:'-10',
+        opacity:0,
+        duration:1.5,
+        ease:Expo.easeInOut
+    })
+    .from(".wel-btn",{
+        y:'-10',
+        opacity:0,
+        duration:2,
+        delay:-1.5,
+        ease:Expo.easeInOut,
+    })
+    .from(".desc2",{
+        y:'-10',
+        opacity:0,
+        duration:1.5,
+        delay:-1,
+        ease:Expo.easeInOut
+    })
+}  
+
+firstPageAnim();
