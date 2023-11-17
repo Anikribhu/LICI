@@ -62,9 +62,9 @@ function footerAnim(){
   var tl =gsap.timeline();
 
   tl.from(".agency-about",{
-      x:'-15',
+      x:'-20',
       opacity:0,
-      duration:1.5,
+      duration:2,
       ease:Power3.easeInOut
   })
   .from(".footer-links",{
@@ -75,10 +75,11 @@ function footerAnim(){
       ease:Expo.easeInOut
   })
   .from(".contact",{
-      x:'6',
+      x:'20',
       opacity:0,
-      duration:1.5,
-      ease:Power1.easeInOut
+      delay:-1,
+      duration:2,
+      ease:Power3.easeInOut
   })
 }
 

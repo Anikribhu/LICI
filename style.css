@@ -297,6 +297,18 @@ nav img {
     height: auto;
   }
   .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
     padding-top: 50px;
+  }
+  .agency-about{
+    width: 100%;
+  }
+  .address{
+    padding: 0 ;
+    width:100%;
   }
 }
