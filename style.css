@@ -261,9 +261,7 @@ nav img {
   font-size: 30px;
 }
 
-.address{
-  padding: 0 30px;
-}
+
 
 .footer-btn{
   padding: 20px;
@@ -307,8 +305,5 @@ nav img {
   .agency-about{
     width: 100%;
   }
-  .address{
-    padding: 0 ;
-    width:100%;
-  }
+  
 }
