@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Slab&display=swap');
+
+
+
+.profile-content {
+    margin: 10px;
+    position: relative;
+    left: 15%;
+    padding: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.profile-image{
+    border-radius: 20px;
+    box-shadow: 3px 3px #5e5d5d;
+}
+
+.profile-heading{
+    font-size: 30px;
+}
+
+.about {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+.profile-content img {
+    width: 40%;
+    height: 400px;
+}
+
+.achievements{
+    padding: 20px;
+    color: #fff;
+}
+
+.achievements h1{
+    text-align: center;
+    font-family: "Roboto Slab";
+    
+}
+
+.achieve-content{
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.images img{
+    width: 35%;
+    margin-left: 180px;
+    
+}
+
+hr{
+    border: 1px solid black;
+    margin: 0 100px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .profile-content {
+        padding: 10px;
+        margin-top: 20px;
+        width: 95%;
+        left: 0;
+    }
+
+    .profile-content img {
+
+        width: 40%;
+        height: 250px;
+    }
+
+    .desktop-view{
+        display: none;
+    }
+
+    .achieve-content{
+        padding: 30px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .images img{
+        width: 35%;
+        margin-left: 130px;  
+    }
+
+    .achievements{
+        padding-top: 40px;
+    }
+
+    hr{
+        margin: 0 40px;
+    }
+    
+
+}
+
+@media screen and  (min-width: 900px){
+    .mobile-view{
+        display: none;
+    }
+  }
