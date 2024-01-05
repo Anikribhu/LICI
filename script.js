@@ -1,3 +1,19 @@
+// function SmoothSlide() {
+//   const scroll = new LocomotiveScroll({
+//     el: document.querySelector('.main'),
+//     smooth: true
+//   });
+// }
+
+
+
+// SmoothSlide();
+
+
+
+
+
+
 // Auto Slide 
 var slideIndex = 0;
 showSlides();
